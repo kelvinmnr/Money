@@ -1,4 +1,9 @@
   @Records = React.createClass
+  @Records = React.createClass
+    getInitialState: ->
+      records: @props.data
+    getDefaultProps: ->
+      records: []
     render: ->
       React.DOM.div
         className: 'records'
