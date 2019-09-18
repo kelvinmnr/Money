@@ -2,7 +2,10 @@ class RecordsController < ApplicationController
 def index
 	@records = Record.all
 end
- if @record.save
+  def create
+      @record = Record.new(record_params)
+
+      if @record.save
         render json: @record
       else
         render json: @record.errors, status: :unprocessable_entity
