@@ -12,9 +12,10 @@ gem 'rails', '~> 5.1.7'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
-gem 'bootstrap-sass', '~> 3.4.1'
-gem 'sassc-rails', '>= 2.1.0'
+
 gem 'react-rails', '~> 1.0'
+gem 'coffee-script-source', '1.8.0'
+gem "twitter-bootstrap-rails"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
