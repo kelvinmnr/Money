@@ -14,8 +14,8 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 
 gem 'react-rails', '~> 1.0'
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'coffee-script-source', '1.8.0'
-gem "twitter-bootstrap-rails"
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
