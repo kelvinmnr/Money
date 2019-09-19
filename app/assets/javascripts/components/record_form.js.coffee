@@ -54,4 +54,3 @@
         className: 'btn btn-primary'
         disabled: !@valid()
         'Create record'
-  9  app/assets/javascripts/components/re

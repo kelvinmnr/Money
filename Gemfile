@@ -14,7 +14,8 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 
 gem 'react-rails', '~> 1.0'
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'execjs'
+gem 'therubyracer'
 gem 'coffee-script-source', '1.8.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
